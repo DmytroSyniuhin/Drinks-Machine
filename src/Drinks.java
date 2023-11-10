@@ -7,9 +7,11 @@ public enum Drinks {
     COLA(25.50);
 
     final double price;
+
     Drinks(double price) {
         this.price = price;
     }
+
     public double getPrice() {
         return price;
     }
